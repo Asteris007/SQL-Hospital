@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB67F76B-9D8C-22B5-14C0-05F20682DCD3" name="Diagnosis">
+<createdBy>Ести</createdBy>
+<createdTime>2020-10-08 18:48:58 UTC</createdTime>
+<ownerDesignName>HostpitalSystem</ownerDesignName>
+<engineerTo>
+<item key="5F92DC22-2F5E-11B8-AE49-0F5781DDBDAD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Diagnosis_ID" id="DF7733E9-59A6-1DD3-757F-987A31219AC0">
+<createdBy>Ести</createdBy>
+<createdTime>2020-10-08 18:49:38 UTC</createdTime>
+<ownerDesignName>HostpitalSystem</ownerDesignName>
+<engineerTo>
+<item key="5F92DC22-2F5E-11B8-AE49-0F5781DDBDAD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Diagnosis_name" id="1AC6B63E-096F-60FD-091E-A416F5DBF3E1">
+<createdBy>Ести</createdBy>
+<createdTime>2020-10-08 18:49:48 UTC</createdTime>
+<ownerDesignName>HostpitalSystem</ownerDesignName>
+<engineerTo>
+<item key="5F92DC22-2F5E-11B8-AE49-0F5781DDBDAD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="637A8CB4-7EFB-EE81-6BF2-8ADFB3412DD3" name="Diagnosises PK">
+<createdBy>Ести</createdBy>
+<createdTime>2020-10-08 18:49:46 UTC</createdTime>
+<ownerDesignName>HostpitalSystem</ownerDesignName>
+<engineerTo>
+<item key="5F92DC22-2F5E-11B8-AE49-0F5781DDBDAD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DF7733E9-59A6-1DD3-757F-987A31219AC0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
